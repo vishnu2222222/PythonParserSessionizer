@@ -1,0 +1,41 @@
+%ASA-6-106015: Mar 03 2025 07:30:43: %ASA-6-106015: Deny TCP (no connection) from 185.220.101.42/53279 to 192.168.2.99/443 flags SYN on interface outside
+%ASA-6-302015: Mar 03 2025 07:31:12: %ASA-6-302015: Built inbound UDP connection 354889098 for outside:185.176.27.14/48906 (185.176.27.14/48906) to inside:192.168.2.99/443 (192.168.2.99/443)
+%ASA-6-302016: Mar 03 2025 07:31:43: %ASA-6-302016: Teardown UDP connection 534966587 for outside:185.176.27.14/48906 to inside:192.168.2.99/443 duration 0:00:01 bytes 450
+%ASA-6-106015: Mar 03 2025 07:31:59: %ASA-6-106015: Deny TCP (no connection) from 198.51.100.23/13573 to 192.168.2.99/443 flags SYN on interface outside
+%ASA-6-302013: Mar 03 2025 07:32:06: %ASA-6-302013: Built outside TCP connection 664735426 for outside:167.71.198.55/24666 (167.71.198.55/24666) to inside:192.168.2.99/443 (192.168.2.99/443)
+%ASA-6-302013: Mar 03 2025 07:32:19: %ASA-6-302013: Built outside TCP connection 776296788 for outside:51.38.194.16/15989 (51.38.194.16/15989) to inside:192.168.2.99/443 (192.168.2.99/443)
+%ASA-6-106015: Mar 03 2025 07:32:58: %ASA-6-106015: Deny TCP (no connection) from 194.165.16.87/42870 to 192.168.2.99/443 flags SYN on interface outside
+%ASA-6-106015: Mar 03 2025 07:33:20: %ASA-6-106015: Deny TCP (no connection) from 51.38.194.16/27721 to 192.168.2.99/443 flags SYN on interface outside
+%ASA-6-106015: Mar 03 2025 07:34:05: %ASA-6-106015: Deny TCP (no connection) from 203.0.113.44/19424 to 192.168.2.99/443 flags SYN on interface outside
+%ASA-6-106015: Mar 03 2025 07:34:46: %ASA-6-106015: Deny TCP (no connection) from 104.21.45.202/61884 to 192.168.2.99/443 flags SYN on interface outside
+%ASA-6-313001: Mar 03 2025 07:34:54: %ASA-6-313001: Denied ICMP type=8, code=0 from 103.224.182.244 to 192.168.2.99 on interface outside
+%ASA-6-106015: Mar 03 2025 07:35:06: %ASA-6-106015: Deny TCP (no connection) from 51.38.194.16/12873 to 192.168.2.99/443 flags SYN on interface outside
+%ASA-6-106015: Mar 03 2025 07:35:27: %ASA-6-106015: Deny TCP (no connection) from 185.220.101.42/18404 to 192.168.2.99/443 flags SYN on interface outside
+%ASA-6-106015: Mar 03 2025 07:35:59: %ASA-6-106015: Deny TCP (no connection) from 185.176.27.14/13913 to 192.168.2.99/443 flags SYN on interface outside
+%ASA-6-302013: Mar 03 2025 07:36:34: %ASA-6-302013: Built outside TCP connection 130461115 for outside:91.108.4.1/47158 (91.108.4.1/47158) to inside:192.168.2.99/443 (192.168.2.99/443)
+%ASA-6-106015: Mar 03 2025 07:36:58: %ASA-6-106015: Deny TCP (no connection) from 91.108.4.1/22283 to 192.168.2.99/443 flags SYN on interface outside
+%ASA-6-106015: Mar 03 2025 07:37:36: %ASA-6-106015: Deny TCP (no connection) from 91.108.4.1/43650 to 192.168.2.99/443 flags SYN on interface outside
+%ASA-6-106015: Mar 03 2025 07:37:58: %ASA-6-106015: Deny TCP (no connection) from 104.21.45.202/59117 to 192.168.2.99/443 flags SYN on interface outside
+%ASA-6-106015: Mar 03 2025 07:38:00: %ASA-6-106015: Deny TCP (no connection) from 198.51.100.23/10284 to 192.168.2.99/443 flags SYN on interface outside
+%ASA-6-106015: Mar 03 2025 07:38:25: %ASA-6-106015: Deny TCP (no connection) from 203.0.113.44/46591 to 192.168.2.99/443 flags SYN on interface outside
+%ASA-6-302013: Mar 03 2025 07:38:52: %ASA-6-302013: Built outside TCP connection 829103681 for outside:91.108.4.1/1582 (91.108.4.1/1582) to inside:192.168.2.99/443 (192.168.2.99/443)
+%ASA-6-106015: Mar 03 2025 07:39:13: %ASA-6-106015: Deny TCP (no connection) from 103.224.182.244/42467 to 192.168.2.99/443 flags SYN on interface outside
+%ASA-6-106015: Mar 03 2025 07:39:50: %ASA-6-106015: Deny TCP (no connection) from 104.21.45.202/30598 to 192.168.2.99/443 flags SYN on interface outside
+%ASA-6-302015: Mar 03 2025 07:40:02: %ASA-6-302015: Built inbound UDP connection 237980072 for outside:194.165.16.87/4884 (194.165.16.87/4884) to inside:192.168.2.99/443 (192.168.2.99/443)
+%ASA-6-302016: Mar 03 2025 07:40:15: %ASA-6-302016: Teardown UDP connection 323999715 for outside:194.165.16.87/4884 to inside:192.168.2.99/443 duration 0:00:01 bytes 331
+%ASA-6-106015: Mar 03 2025 07:40:31: %ASA-6-106015: Deny TCP (no connection) from 159.65.220.97/35615 to 192.168.2.99/443 flags SYN on interface outside
+%ASA-6-302013: Mar 03 2025 07:40:41: %ASA-6-302013: Built outside TCP connection 773870465 for outside:198.51.100.23/22735 (198.51.100.23/22735) to inside:192.168.2.99/443 (192.168.2.99/443)
+%ASA-6-313001: Mar 03 2025 07:41:12: %ASA-6-313001: Denied ICMP type=8, code=0 from 167.71.198.55 to 192.168.2.99 on interface outside
+%ASA-6-106015: Mar 03 2025 07:41:19: %ASA-6-106015: Deny TCP (no connection) from 185.176.27.14/24883 to 192.168.2.99/443 flags SYN on interface outside
+%ASA-6-106015: Mar 03 2025 07:41:46: %ASA-6-106015: Deny TCP (no connection) from 203.0.113.44/32443 to 192.168.2.99/443 flags SYN on interface outside
+%ASA-6-106015: Mar 03 2025 07:42:16: %ASA-6-106015: Deny TCP (no connection) from 51.38.194.16/52334 to 192.168.2.99/443 flags SYN on interface outside
+%ASA-6-106015: Mar 03 2025 07:42:22: %ASA-6-106015: Deny TCP (no connection) from 103.224.182.244/20138 to 192.168.2.99/443 flags SYN on interface outside
+%ASA-6-302015: Mar 03 2025 07:43:04: %ASA-6-302015: Built inbound UDP connection 376831568 for outside:91.108.4.1/55780 (91.108.4.1/55780) to inside:192.168.2.99/443 (192.168.2.99/443)
+%ASA-6-302016: Mar 03 2025 07:43:12: %ASA-6-302016: Teardown UDP connection 458217018 for outside:91.108.4.1/55780 to inside:192.168.2.99/443 duration 0:00:01 bytes 70
+%ASA-6-106015: Mar 03 2025 07:43:26: %ASA-6-106015: Deny TCP (no connection) from 194.165.16.87/7241 to 192.168.2.99/443 flags SYN on interface outside
+%ASA-6-106015: Mar 03 2025 07:43:42: %ASA-6-106015: Deny TCP (no connection) from 34.93.22.10/38204 to 192.168.2.99/443 flags SYN on interface outside
+%ASA-6-106015: Mar 03 2025 07:44:22: %ASA-6-106015: Deny TCP (no connection) from 198.51.100.23/48462 to 192.168.2.99/443 flags SYN on interface outside
+%ASA-6-106015: Mar 03 2025 07:44:46: %ASA-6-106015: Deny TCP (no connection) from 178.128.83.141/60404 to 192.168.2.99/443 flags SYN on interface outside
+%ASA-6-313001: Mar 03 2025 07:45:21: %ASA-6-313001: Denied ICMP type=8, code=0 from 167.71.198.55 to 192.168.2.99 on interface outside
+%ASA-6-106015: Mar 03 2025 07:45:31: %ASA-6-106015: Deny TCP (no connection) from 104.21.45.202/50652 to 192.168.2.99/443 flags SYN on interface outside
+%ASA-6-106015: Mar 03 2025 07:46:02: %ASA-6-106015: Deny TCP (no connection) from 159.65.220.97/46026 to 192.168.2.99/443 flags SYN on interface outside
