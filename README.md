@@ -1,4 +1,4 @@
-# Attack Vector Classification for Cisco ASA Logs
+# ASA Log Sentinel
 
 This project was built for a cybersecurity LLM workflow where the final system should be able to detect one or more attack vectors from Cisco ASA logs, such as:
 
@@ -82,7 +82,7 @@ The final stage creates model-ready JSONL records that summarize the evidence in
 ## Repository Structure
 
 ```text
-PythonParserSessionizer/
+ASA-Log-Sentinel/
 |
 +-- asa_pipeline/
 |   +-- cli.py
@@ -204,8 +204,8 @@ Example:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/vishnu2222222/PythonParserSessionizer.git
-cd PythonParserSessionizer
+git clone https://github.com/vishnu2222222/ASA-Log-Sentinel.git
+cd ASA-Log-Sentinel
 ```
 
 ### 2. Install the project
@@ -378,6 +378,10 @@ Run the CLI:
 ```bash
 python -m asa_pipeline.cli "<input_log_or_directory>" --outdir "<output_directory>"
 ```
+
+## License
+
+This project is licensed under the Apache License 2.0.
 
 ## Project Summary
 
